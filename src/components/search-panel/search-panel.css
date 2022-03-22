@@ -1,0 +1,15 @@
+.search-panel{
+    background-color: var(--main-back-color);
+    margin-top: 20px;
+    box-shadow: 10px 10px 15px #2c2d2cc2;
+}
+.search-panel input{
+    margin: 20px 20px 0;
+    width: 70%;
+    height: 30px;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+.search-panel input:focus-visible{
+    outline: none;
+}

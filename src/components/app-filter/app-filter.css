@@ -1,0 +1,26 @@
+.search_btns{
+    background-color: var(--main-back-color);
+    margin-top: 25px;
+    padding: 0 0 20px 20px;
+}
+.search_btns{
+    color: white;
+}
+.btn {
+    width: 150px;
+    height: 35px;
+    margin-right: 5px;
+    background-color: var(--main-back-color);
+    border: solid 1px white;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    width: 160px;
+    box-shadow: 2px 2px 2px 1px rgba(255,255,255, 0.5);
+}
+.active{
+    background-color: white;
+    color: var(--main-back-color);
+}
